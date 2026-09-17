@@ -1,0 +1,24 @@
+{
+  "name": "human-handdraw-starter",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "studio": "remotion studio --no-open",
+    "render:preview": "remotion render HumanHanddrawPreview out/preview.mp4 --codec=h264 --muted",
+    "render:alpha": "remotion render HumanHanddrawOverlay out/overlay-alpha.mov --image-format=png --pixel-format=yuva444p10le --codec=prores --prores-profile=4444 --muted",
+    "render:webm": "remotion render HumanHanddrawOverlay out/overlay-alpha.webm --image-format=png --pixel-format=yuva420p --codec=vp9 --muted"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.522",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.522"
+  },
+  "devDependencies": {
+    "@types/node": "26.5.0",
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

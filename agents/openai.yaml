@@ -1,0 +1,6 @@
+interface:
+  display_name: "Human Handdraw"
+  short_description: "Create raw hand-drawn Remotion overlays"
+  default_prompt: "Use $human-handdraw to plan a transparent hand-drawn overlay and wait for my approval before building it."
+policy:
+  allow_implicit_invocation: true
