@@ -1,5 +1,12 @@
 # human-handdraw
 
+[![Agent Skills compatible](https://img.shields.io/badge/Agent%20Skills-compatible-6f42c1?style=flat-square)](https://agentskills.io)
+[![Codex ready](https://img.shields.io/badge/Codex-ready-111111?style=flat-square&logo=openai&logoColor=white)](https://developers.openai.com/codex/)
+[![Claude Code compatible](https://img.shields.io/badge/Claude%20Code-compatible-D97757?style=flat-square&logo=anthropic&logoColor=white)](https://code.claude.com/docs/en/skills)
+[![Remotion 4.0.522](https://img.shields.io/badge/Remotion-4.0.522-0B84F3?style=flat-square&logo=remotion&logoColor=white)](https://www.remotion.dev/)
+[![TypeScript 5.9.3](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![MIT License](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](LICENSE)
+
 `human-handdraw` is an Agent Skill for planning and producing transparent, silent hand-drawn overlays with Remotion. It creates handwriting, arrows, rough annotations, doodles, conceptual diagrams, and mind maps as progressively revealed SVG centerlines—without handwriting fonts or SVG text.
 
 The skill uses an approval-first workflow:
