@@ -11,10 +11,10 @@
     "render:webm": "remotion render HumanHanddrawOverlay out/overlay-alpha.webm --image-format=png --pixel-format=yuva420p --codec=vp9 --muted"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.522",
+    "@remotion/cli": "4.0.537",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "remotion": "4.0.522"
+    "remotion": "4.0.537"
   },
   "devDependencies": {
     "@types/node": "26.5.0",
